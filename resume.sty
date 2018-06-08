@@ -49,7 +49,7 @@
 \usepackage{relsize}
 
 % Setup the hyperrefs witht he right color.
-\usepackage{hyperref}  
+\usepackage{hyperref}
 \usepackage{xcolor}
 \definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
 \hypersetup{colorlinks,linkcolor={dark-blue},citecolor={dark-blue},urlcolor={dark-blue}}
@@ -59,7 +59,7 @@
 \ifxetex
 
   \usepackage{fontspec}
-  
+
   % the main font, with all features on
   \setmainfont
     [ ExternalLocation ,
@@ -70,7 +70,7 @@
       ItalicFont       = texgyrepagella-italic.otf ,
       BoldItalicFont   = texgyrepagella-bolditalic.otf ]
     {texgyrepagella-regular.otf}
-    
+
   % same like the main font, but without old-style nums
   \newfontfamily\newnums
     [ ExternalLocation ,
@@ -148,6 +148,7 @@
 
 % subheaderrow command, used for a new position
 \newcommand{\headedsubsection}[3]{\nopagebreak[4]\begin{indentsection}\item[]\textbf{#1}\hfill\emph{#2}#3\end{indentsection}\nopagebreak[4]}
+\newcommand{\headedsubsectionpb}[3]{\begin{indentsection}\item[]\textbf{#1}\hfill\emph{#2}#3\end{indentsection}}
 
 % body text (indented)
 \newcommand{\bodytext}[1]{\nopagebreak[4]\begin{indentsection}\item[]#1\end{indentsection}\pagebreak[2]}
