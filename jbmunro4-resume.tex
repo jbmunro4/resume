@@ -59,18 +59,80 @@ Atlanta, GA\sbull
 
 \vspace{-1.3em}  % some vertical spacing
 \begin{multicols}{2}  % open a multicolumn environment
-\noindent \emph{Data nerd with strong development skills, a proven history of designing and building creative data products, an intuition for data architecture, and strong leadership capabilities.}
+\noindent \emph{Data nerd and full-stack engineer with 15 years of designing and building creative data and AI products, an intuition for data architecture, and strong leadership capabilities.}
 \\
 \\
 I enjoy an intensely challenging and creative career in various forms of Information Science that deepen my existing knowledge of Machine Learning, Data Analysis, Artificial Intelligence, Systems Design, and Cognitive Science while broadening my world view. I want my views to be challenged on a regular basis and to always be learning new things.
 
-I have a passion for understanding the nature of \mbox{Intelligence} and strive to formalize or leverage aspects of Human Intelligence in everything that I build, whether from an AI and Automation perspective or from the perspective of Product Design and Usability.
+I have a passion for understanding the nature of \mbox{Intelligence} and strive to formalize or leverage aspects of Human Intelligence in everything that I build, whether from an AI and Automation perspective or from the perspective of Product Design and Usability. Most recently that has meant building LLM agent systems for cybersecurity, with a focus on evaluating them and making them trustworthy.
 \end{multicols}
 
 
 \spacedhrule{0em}{-0.4em}
 
 \roottitle{Experience}
+
+\headedsection  % sets the header for the section and includes any subsections
+  {\href{https://phosphorus.io}{Phosphorus}{ (acquired by Dragos)}}
+  {\textsc{Remote}} {%
+  \headedsubsection
+    {Staff AI Engineer}
+    {Jun \apo25 -- Oct \apo26}
+    {\bodytext{
+      Designed and developed a pipeline that matches public vulnerability records (NVD CVE and CPE data) to a catalog of connected-device vendors, models, and firmware versions.
+
+      \vspace{0.5em}
+      Combined rule-based normalization, Machine Learning scoring models, and LLM agents with web search to resolve ambiguous vendor and product names. Routed uncertain matches to a human review queue with provenance and confidence scores.
+
+      \vspace{0.5em}
+      Built research agents that compile and repeatedly verify vendor profiles, including product lines, aliases, acquisitions, and security advisories.
+
+      \vspace{0.5em}
+      Designed a Model Context Protocol (MCP) knowledge server that gives engineers, analysts, and production agents one vetted source of device knowledge, with a tool for contesting facts.
+
+      \vspace{0.5em}
+      Built evaluation sets of known matches and hard mismatches to measure matching accuracy.
+
+      \vspace{0.5em}
+      Continued this work as a Staff ML/AI Engineer at Dragos after its 2026 acquisition of Phosphorus, then joined a Dragos product engineering team to write designs and plans for Machine Learning features.
+
+      \vspace{0.5em}
+      Developed agentic coding workflows for engineering work, including subagents, persistent memory, and design review skills.
+
+      \vspace{0.5em}
+      \textit{Environment:} Reported to the Chief AI Officer at a cybersecurity company whose platform discovers connected IoT and OT devices, assesses their exposure, and automates remediation. Technologies included Python, PostgreSQL, Airflow, DSPy, Scikit-Learn, MCP, and Claude Code. Machine Learning and Statistical Methods included Entity Resolution, Supervised Classification, LLM Agents, and Human-in-the-Loop Evaluation.
+    }}
+}
+
+\vspace{0.5em}
+
+\headedsection  % sets the header for the section and includes any subsections
+  {\href{https://www.todyl.com}{Todyl}}
+  {\textsc{Atlanta, GA}} {%
+  \headedsubsection
+    {Staff Data Scientist}
+    {Jul \apo24 -- May \apo25}
+    {\bodytext{
+      Researched, designed, and built early versions of Janus, Todyl\apo s AI assistant for security incident investigation, which is embedded in the case page of the customer portal and was publicly launched in 2026.
+
+      \vspace{0.5em}
+      Built the assistant\apo s backend service in Python with streaming APIs over hosted Large Language Models and retrieval over alert and case data in Elasticsearch.
+
+      \vspace{0.5em}
+      Created an evaluation framework with the Security Operations Center (SOC) analysts, who scored responses for verdict, evidence, and recommended next steps.
+
+      \vspace{0.5em}
+      Evaluated multi-agent frameworks (LangGraph, CrewAI, and AutoGen) and designed a second-generation architecture with persistent agent memory and permission-scoped retrieval.
+
+      \vspace{0.5em}
+      Set up shared AI developer tooling for the team, including a reviewed set of MCP servers and a shared memory bank for coding agents.
+
+      \vspace{0.5em}
+      \textit{Environment:} AI and Machine Learning research team at a cybersecurity SaaS platform for Managed Service Providers (MSPs), working closely with the Managed Detection and Response analysts. Technologies included Python, FastAPI, Elasticsearch, Kibana, Redis, Streamlit, and MCP. Methods included Retrieval-Augmented Generation (RAG), Agent Orchestration, and Human-Scored Evaluation.
+    }}
+}
+
+\vspace{0.5em}
 
 \headedsection  % sets the header for the section and includes any subsections
   {\href{http://amprecover.com}{AMP Recover}}
@@ -305,6 +367,9 @@ I have a passion for understanding the nature of \mbox{Intelligence} and strive 
     \textit{Machine Learning:} Random Forests (Decision Forests), k-NN, SVM, Decision Trees, K-Means, K-Medoids, DBScan, Hierarchical Clustering, Self Organizing Maps, Neural Networks, Principle Components Analysis (PCA), Supervised Machine Learning (Classification, Regression), Unsupervised Machine Learning (Clustering), Graph Analytics (Network Analysis), Natural Language Processing (NLP)
 
     \vspace{0.25em}
+    \textit{LLM and Agent Systems:} Retrieval-Augmented Generation (RAG), Agent Orchestration, Model Context Protocol (MCP) Servers, Agent Memory, Evaluation Frameworks, Human-in-the-Loop Review
+
+    \vspace{0.25em}
     \textit{Statistics:} Information Gain Analysis, Linear Regression, Logistic Regression, Holtz-Winters Time Series Forecasting, Data Visualization, Statistical Hypothesis Testing, Statistical Distributions
 
     \vspace{0.25em}
@@ -317,7 +382,7 @@ I have a passion for understanding the nature of \mbox{Intelligence} and strive 
 \headedsubsection
   {Frameworks, Tools, and Libraries:} {}
   {\bodytext{
-    \textit{Python:} Django, GGPlot2, Matplotlib, NumPy, PySpark, Scikit-Learn, SciPy
+    \textit{Python:} Airflow, Django, DSPy, FastAPI, GGPlot2, Matplotlib, NumPy, PySpark, Scikit-Learn, SciPy, Streamlit
 
     \vspace{0.25em}
     \textit{Ruby:} Capistrano, Carrierwave, Devise, Ruby on Rails, Searchkick, Sidekiq
